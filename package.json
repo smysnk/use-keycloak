@@ -1,0 +1,44 @@
+{
+  "name": "use-keycloak",
+  "version": "1.0.3",
+  "description": "Keycloak hook",
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "keycloak"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && babel ./src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smysnk/use-keycloak.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smysnk/use-keycloak/issues"
+  },
+  "homepage": "https://github.com/smysnk/use-keycloak#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/preset-env": "7.13.0",
+    "@babel/preset-react": "7.12.13",
+    "@babel/preset-typescript": "7.13.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.1.0",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "rimraf": "^2.4.3"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}
